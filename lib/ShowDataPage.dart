@@ -22,6 +22,7 @@ class _ShowDataPageState extends State<ShowDataPage> {
           data[key]['name'],
           data[key]['message'],
           data[key]['profession'],
+          data[key]['feedback']
         );
         allData.add(d);
       }
